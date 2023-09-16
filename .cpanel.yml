@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/atestzzp/public_html/git_test
+    - /bin/cp * $DEPLOYPATH
+    
